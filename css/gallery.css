@@ -1,0 +1,229 @@
+/*Mobile first */
+  body{
+    background-image:url("aerial-view-beach-beautiful-462162.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  .fishing, .hiking, .rock_climbing, .camping{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  .footer{
+    font-family: 'Lobster', cursive;
+    font-size: 12px;
+    color: black;
+    background-color: #ffffff6e;
+    /* width: 66%; */
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+  }
+
+  h2{
+    color: white;
+    background-color: #0000004f;
+    width: 35%;
+    font-size: 18px;
+    border: 5px solid black;
+    margin: auto;
+    padding:20px;
+
+  }
+
+  img{
+    width: 100%;
+    border: 4px solid black;
+  }
+
+  #Hiking, #Fishing, #RockClimbing, #Camping{
+    border: 10px solid black;
+
+  }
+
+  /* styling the navbar*/
+  .navbar{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    overflow: hidden;
+    display: block;
+    border: 10px solid black;
+    padding:20px 0 20px 40px;
+    margin-bottom: 20px;
+
+  }
+
+  .navbar {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    overflow: hidden;
+    font-family: IBM Plex Mono, monospace;
+    font-size: 2px;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+ .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#0000004f ;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 80px;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #0000004f ;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+@media screen and (min-width: 1000px){
+
+  /* introducing and styling the grids */
+  .fishing, .hiking, .rock_climbing, .camping{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+  }
+  h2{
+    color: white;
+    background-color: #0000004f;
+    width: 15%;
+    border: 5px solid black;
+    margin: auto;
+    padding: 10px;
+  }
+
+  img{
+    /* height: 250px;
+    width: 400px; */
+    width: 100%;
+    border: 4px solid black;
+  }
+
+  .footer{
+    grid-gap: 20px;
+    font-size: 14px;
+    width: 15%;
+  }
+
+
+  .navbar{
+    overflow: hidden;
+    display: block;
+    border: 10px solid black;
+    padding:20px 0 20px 40px;
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+    overflow: hidden;
+    display: block;
+    font-family: IBM Plex Mono, monospace;
+    font-size: 2px;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+ .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#0000004f ;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 80px;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #0000004f ;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+}

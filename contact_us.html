@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE Edge">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/contact_us.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Lobster|Pacifico" rel="stylesheet">
+    <title>Contact Us</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Lobster|Pacifico');
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="gallery.html">GALLERY</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">CATEGORIES
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#Camping">CAMPING</a>
+            <a href="#RockClimbing">ROCK CLIMBING</a>
+            <a href="#Hiking">HIKING</a>
+            <a href="#Fishing">FISHING</a>
+          </div>
+        </div>
+        <a href="contact_us.html">CONTACT</a>
+      </div>
+    </div>
+
+
+    <form class=action="/action_page.php" method="post">
+      <fieldset>
+        <legend><strong>Personal information:</strong></legend>
+        <div id="text">
+          Please fill out the form.
+          <p>Thank you!</p>
+        </div>
+
+
+        <div class="container">
+
+          <label for="First Name:">First Name</label>
+          <input type="text" name="firstname" required >
+
+          <label for="Last Name:">Last Name</label>
+          <input type="text" name="lastname" required >
+
+          <label for="Email:">Email</label>
+          <input type="text" placeholder="example@email.com" name="email" value="">
+
+          <label for="Message:">Message</label>
+          <textarea name="message" placeholder="comments/suggestions" row="6" cols="30"></textarea>
+
+          <label for="Subject:">Subject</label>
+          <select name:"subject">
+            <option value=".">Please select: </option>
+            <option value="Hiking">Hiking</option>
+            <option value="Rock Climbing">Rock Climbing</option>
+            <option value="Fishing">Fishing</option>
+            <option value="Camping">Camping</option>
+          </select><br>
+          <input type="Submit" value="Submit">
+        </div>
+
+        <div class="icons">
+          <p><img src="images/icons/icons8-facebook-64.png" alt="facebook"></p>
+          <h3>Outdoor_Adventures</h3>
+          <p><img src="images/icons/icons8-twitter-48.png" alt="twitter"></p>
+          <h3>@outdoor_adventures </h3>
+          <p><img src="images/icons/icons8-instagram-48.png" alt="instagram"></p>
+          <h3>IG: OUTDoor_Adventures</h3>
+
+        </div>
+
+      </fieldset>
+    </form>
+
+    <footer class="footer">
+      Theme by Odwa_Kula <br>|
+      2018 Copyright Holder All Rights Reserved.
+    </footer>
+
+  </body>
+</html>
